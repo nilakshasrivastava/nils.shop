@@ -133,6 +133,53 @@ const PRODUCTS: Product[] = [
     isNewArrival: false,
     createdAt: '2026-02-01T12:00:00Z'
   },
+  {
+    id: 'prod_mouse_m3',
+    name: 'M3 Precision Wireless Studio Mouse',
+    description: 'An ergonomic masterpiece sculpted for absolute accuracy. Features an ultra-precise 26,000 DPI optical sensor, silent tactile switches, and a high-quality machined aluminum scroll wheel. Blends seamlessly into minimalist studio setups.',
+    price: 129,
+    categoryId: 'cat_electronics',
+    brand: 'NILS Lab',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Sensor DPI', value: 'Up to 26,000 Pixels/Inch' },
+      { name: 'Battery Specs', value: 'USB-C Rechargeable, up to 120 hrs' },
+      { name: 'Weight', value: '63 grams ultra-lightweight' },
+      { name: 'Interface', value: '2.4G Premium Wireless / Bluetooth 5.1' }
+    ],
+    availability: true,
+    stock: 30,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-18T10:45:00Z'
+  },
+  {
+    id: 'prod_desk_light_p1',
+    name: 'P1 Ambient Dual-光源 Desk Monitor Lightbar',
+    description: 'Designed to reduce eye strain and elevate your focus. Anchors securely to your monitor or mounts on a beautiful heavy cast-brass base. Fully adjustable color temperature (2700K - 6500K) with linear step-less dimming controls.',
+    price: 149,
+    categoryId: 'cat_electronics',
+    brand: 'NILS Lab',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Color Temp Range', value: '2700K (Warm Sunset) to 6500K (Daylight)' },
+      { name: 'Power Connection', value: 'USB Type-C (5V, 2A)' },
+      { name: 'Illuminance', value: 'Up to 1100 Lux at 35cm' }
+    ],
+    availability: true,
+    stock: 18,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-20T11:30:00Z'
+  },
 
   // FASHION
   {
@@ -206,6 +253,52 @@ const PRODUCTS: Product[] = [
     isNewArrival: false,
     createdAt: '2026-02-18T10:45:00Z'
   },
+  {
+    id: 'prod_cotton_hoodie_a1',
+    name: 'A1 Organic Heavyweight Cotton Hoodie',
+    description: 'An elevated classic spun from heavy 450gsm organic French terry cotton. Features a double-lined structured hood without drawstrings, dropped shoulders, and subtle blind-stitched seams. Crafted to maintain its structural form for years.',
+    price: 110,
+    categoryId: 'cat_fashion',
+    brand: 'NILS Studio',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Material Spec', value: '100% GOTS Certified Organic Cotton (450gsm)' },
+      { name: 'Weave Type', value: 'Loopback French Terry' },
+      { name: 'Dye Standard', value: 'Hypoallergenic Eco-Reactive Pigments' }
+    ],
+    availability: true,
+    stock: 25,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-22T08:00:00Z'
+  },
+  {
+    id: 'prod_leather_sneakers',
+    name: 'Atelier Premium Leather Sneakers',
+    description: 'A clean, low-top silhouette handcrafted in Marche, Italy. Cut from buttery-smooth full-grain calfskin leather, lined with breathable calfskin, and stitched onto durable Italian Margom rubber soles. The definitive everyday luxury sneaker.',
+    price: 260,
+    categoryId: 'cat_fashion',
+    brand: 'Atelier Nils',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Origin Country', value: '100% Handcrafted in Marche, Italy' },
+      { name: 'Upper Material', value: 'Full-Grain Grade-A Italian Calfskin Leather' },
+      { name: 'Outsole', value: 'Custom Margom Vulcanized Natural Rubber' }
+    ],
+    availability: true,
+    stock: 14,
+    isBestseller: true,
+    isNewArrival: true,
+    createdAt: '2026-05-24T14:30:00Z'
+  },
 
   // HOME & LIVING
   {
@@ -255,6 +348,76 @@ const PRODUCTS: Product[] = [
     isNewArrival: true,
     createdAt: '2026-05-15T11:00:00Z'
   },
+  {
+    id: 'prod_travertine_coasters',
+    name: 'Minimalist Travertine Stone Coasters (Set of 4)',
+    description: 'Cut from heavy, unfilled raw Italian travertine stone. Each coaster showcases the unique, organic geological cavities formed over millennia. Backed with premium cork layers to protect delicate tabletop surfaces.',
+    price: 49,
+    categoryId: 'cat_home',
+    brand: 'Hearth Studio',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Material', value: 'Unfilled Raw Italian Travertine' },
+      { name: 'Backing', value: 'High-density natural cork' },
+      { name: 'Set Count', value: '4 unique rustic square pieces' },
+      { name: 'Dimensions', value: '4.0 x 4.0 in square shape' }
+    ],
+    availability: true,
+    stock: 40,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-10T12:00:00Z'
+  },
+  {
+    id: 'prod_ceramic_tea_set',
+    name: 'Faceted Ceramic Tea Set with Walnut Accent',
+    description: 'A modern homage to traditional gongfu tea ceremonies. Features a matte-black faceted teapot with a solid walnut handle and four matching double-walled cups, hand-glazed with a satin-metallic interior.',
+    price: 120,
+    categoryId: 'cat_home',
+    brand: 'Hearth Studio',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Included Items', value: '1 Faceted Teapot, 4 Double-Wall Cups' },
+      { name: 'Teapot Volume', value: '450ml with integrated steel mesh filter' },
+      { name: 'Material', value: 'Satin-glazed high-fire clay earthenware, solid walnut' }
+    ],
+    availability: true,
+    stock: 15,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-15T09:00:00Z'
+  },
+  {
+    id: 'prod_linen_duvet_set',
+    name: 'Pure Belgian Linen Duvet Cover Set',
+    description: 'Woven from flax grown with sustainable practices in Belgium. Breathable, hypoallergenic, and softened with dynamic enzyme washes for incredible comfort that improves with age. Includes one duvet cover and two standard envelope closure pillowcases.',
+    price: 220,
+    categoryId: 'cat_home',
+    brand: 'Hearth Studio',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Material', value: '100% Belgian Flax Linen' },
+      { name: 'Set Details', value: '1 Duvet Cover + 2 Pillow Shams (Standard Queen)' },
+      { name: 'Weight Class', value: '175 gsm lightweight and highly breathable' }
+    ],
+    availability: true,
+    stock: 12,
+    isBestseller: true,
+    isNewArrival: false,
+    createdAt: '2026-04-12T14:15:00Z'
+  },
 
   // CURATED BOOKS
   {
@@ -279,6 +442,52 @@ const PRODUCTS: Product[] = [
     isBestseller: true,
     isNewArrival: false,
     createdAt: '2025-11-12T09:00:00Z'
+  },
+  {
+    id: 'prod_book_japanese_simplicity',
+    name: 'The Art of Simplicity: Interior Spaces of Japan',
+    description: 'An exquisite visual journey through traditional and contemporary Japanese interiors. Highlights the philosophies of Ma (negative space), Wabi-Sabi, and detailed joinery craftsmanship. 280 heavy-grade matte pages with clothbound spine.',
+    price: 60,
+    categoryId: 'cat_books',
+    brand: 'Minimalist Press',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Format', value: 'Premium stitch clothbound spine hardcover' },
+      { name: 'Page Count', value: '280 pages on acid-free sustainable paper' },
+      { name: 'Dimensions', value: '8.8 x 11.0 in portrait' }
+    ],
+    availability: true,
+    stock: 20,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-01T10:00:00Z'
+  },
+  {
+    id: 'prod_book_mcm_masterpieces',
+    name: 'Bespoke Design: Mid-Century Modern Masterpieces',
+    description: 'A comprehensive tribute to the designers who reshaped the twentieth century. From Eames to Wegner, discover the history, technical drawings, and cultural impact of the most iconic furniture designs ever produced.',
+    price: 75,
+    categoryId: 'cat_books',
+    brand: 'Minimalist Press',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Format', value: 'Heavyweight matte paper, slipcased collector edition' },
+      { name: 'Pages', value: '320 pages detailing full architectural diagrams' },
+      { name: 'Dimensions', value: '10.2 x 13.0 in oversized collector size' }
+    ],
+    availability: true,
+    stock: 10,
+    isBestseller: true,
+    isNewArrival: true,
+    createdAt: '2026-05-18T15:00:00Z'
   },
 
   // WELLNESS & FITNESS
@@ -328,6 +537,52 @@ const PRODUCTS: Product[] = [
     isNewArrival: true,
     createdAt: '2026-04-20T17:00:00Z'
   },
+  {
+    id: 'prod_jump_rope_t1',
+    name: 'T1 Ergonomic Grip Jump Rope Set',
+    description: 'Engineered for pure speed and coordination. Features heavy, knurled anodized aluminum handles with precision ball bearings for effortless rotation. Includes both a lightweight speed cable and a heavier leather conditioning rope.',
+    price: 55,
+    categoryId: 'cat_fitness',
+    brand: 'Form & Flow',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Handle Weight', value: '120g solid aircraft-grade knurled aluminum' },
+      { name: 'Bearings Used', value: 'High-speed industrial carbon steel bearings' },
+      { name: 'Adjustable Range', value: 'Rope customizable for bounds up to 10ft tall' }
+    ],
+    availability: true,
+    stock: 18,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-12T14:30:00Z'
+  },
+  {
+    id: 'prod_oil_diffuser',
+    name: 'Aromatherapy Ceramic Oil Diffuser',
+    description: 'Constructed from real hand-finished white porcelain to blend elegantly with home environments. Employs cool, high-frequency ultrasonic waves to diffuse essential oil micro-particles without standard heating, and includes an ambient glow light.',
+    price: 85,
+    categoryId: 'cat_fitness',
+    brand: 'Form & Flow',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Outer Covering', value: 'High-density matte textured structural porcelain' },
+      { name: 'Water Basin Capacity', value: '120ml (Spans up to 7-8 hours continuous)' },
+      { name: 'Tech', value: 'Ultrasonic 2.4MHz micro-mist vibration plate' }
+    ],
+    availability: true,
+    stock: 25,
+    isBestseller: true,
+    isNewArrival: true,
+    createdAt: '2026-05-18T09:00:00Z'
+  },
 
   // EVERYDAY ACCESSORIES
   {
@@ -375,6 +630,52 @@ const PRODUCTS: Product[] = [
     isBestseller: false,
     isNewArrival: false,
     createdAt: '2026-01-28T09:20:00Z'
+  },
+  {
+    id: 'prod_brass_pen_s1',
+    name: 'S1 Solid Raw Brass Desktop Pen',
+    description: 'Systematically lathed from a raw solid brass hex bar, this heavy desktop pen offers perfect writing balance. Features a smooth twisting deployment mechanism and accepts standard premium Schmidt refills. Develops brilliant custom patina over time.',
+    price: 95,
+    categoryId: 'cat_accessories',
+    brand: 'Atelier Nils',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Material Type', value: '100% C360 Lead-Free Solid Raw Brass' },
+      { name: 'Deployment Mechanism', value: 'Precision inner double-helical twist track' },
+      { name: 'Refills Supported', value: 'Schmidt EasyFlow 9000 / Parker G2 standards' }
+    ],
+    availability: true,
+    stock: 35,
+    isBestseller: false,
+    isNewArrival: true,
+    createdAt: '2026-05-14T10:30:00Z'
+  },
+  {
+    id: 'prod_leather_journal',
+    name: 'Atelier Hand-Bound Leather Journal',
+    description: 'Crafted in Florence with premium vegetable-tanned Italian leather. Houses 160 pages of heavy fountain-pen-friendly deckled edge paper. Features leather cord wrap closure for timeless preservation.',
+    price: 65,
+    categoryId: 'cat_accessories',
+    brand: 'Atelier Nils',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=800',
+    images: [
+      'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=800'
+    ],
+    specifications: [
+      { name: 'Leather Specification', value: 'Genuine Tuscany Vegetable-Tanned Cowhide' },
+      { name: 'Page Weight & Count', value: '160 pages of 120gsm heavy cotton deckled paper' },
+      { name: 'Stitch Technique', value: 'Traditional hand-sewn long stitch binding' }
+    ],
+    availability: true,
+    stock: 20,
+    isBestseller: true,
+    isNewArrival: true,
+    createdAt: '2026-05-16T12:00:00Z'
   }
 ];
 
