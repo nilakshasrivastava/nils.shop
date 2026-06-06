@@ -1,0 +1,6 @@
+{
+  "name": "NILS.SHOP",
+  "description": "A premium, minimalist e-commerce boutique featuring curated lifestyle products, robust user accounts, reviews, wishlists, dynamic search, a functional shopping cart, a realistic checkout flow, and an admin management dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
